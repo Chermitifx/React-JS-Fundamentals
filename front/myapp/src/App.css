@@ -1,0 +1,130 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+h2{
+  margin-bottom: 40px;
+}
+h5{
+  margin-top: 20px;
+  margin-bottom: 1px;
+  margin-left: 5px;
+  color: rgb(161, 154, 154);
+  text-align: left;
+}
+h6{
+  margin-top: 5px;
+  color:  rgb(0, 117, 225);
+}
+
+input{
+  height: 30px;
+  width: 250px;
+  border-radius: 5px;
+  border-width:1px ;
+}
+
+.button {
+  margin-top: 10px;
+  margin-left: 0px;
+  width: 255px;
+  background-color:  rgb(0, 117, 225);
+  border: none;
+  color:  white;
+  padding: 6px ;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  border-radius: 5px;
+
+}
+
+.signup{
+  margin-top: 10px;
+  margin-left: 0px;
+  width: 80px;
+  background-color: rgb(0, 117, 225);
+  border-width: 1px;
+  border-color: rgb(0, 117, 225);
+  color: white;
+  padding: 6px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+   
+
+}
+
+.Tasks{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 10px;
+    row-gap:10px ; 
+    border: 2px solid none;
+    margin-left: auto;
+    margin-right:auto ;
+    margin-top: 80px; 
+    padding-left: 10px;
+  } 
+
+
+  .task-previou{
+    width: 475px;
+    height: auto;
+    margin: 2px 5px 5px 5px ;
+    padding: 2px 2px 2px 2px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    background-color: none;
+    border: 1px solid rgb(6, 6, 6);
+    background-color: rgb(215, 220, 222);
+    border-radius: 20px;
+  }
+
+
+  Link{
+    text-decoration: none;
+    color: red;
+  }
+
+  .inputss{
+    height: 40px;
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-width:1px ;
+  }
+  .dropdown{
+    height: 45px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-width:1px ;
+
+  }
+  .login{
+    background-color: rgb(237, 240, 240);
+    padding: 50px ;
+    border-color: rgb(78, 77, 77);
+    border-radius: 20px;
+  }
+.Button2{
+  background-color: rgb(0, 117, 225);
+  border-width: 1px;
+  border-color: rgb(0, 117, 225);
+  color: white;
+  border-radius: 10px;
+  align-items: end;
+}
+
+body{
+  background-color:rgb(200, 196, 196);
+}
